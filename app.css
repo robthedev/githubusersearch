@@ -1,0 +1,73 @@
+/*************************************************************************/
+/*******             			ALL THE STYLES                    ********/
+/*************************************************************************/
+body, html {
+	background: #eee;
+	background-image: url("octocat_darkwood.jpg");
+    background-size: cover;
+}
+
+a {
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+}
+a#search {
+    background-color: #ad1000;
+    border: 1px solid #8a0c00;
+}
+a#search:hover,
+a#search:focus {
+	color: #fff;
+	
+}
+a#clear {
+	background-color: #ffa239;
+	background-image: -webkit-linear-gradient(#ffb460, #ffa239);
+    background-image: linear-gradient(#ffb460, #ffa239);
+    border-color: #e59133;
+    margin: 15px;
+}
+a#clear:hover,
+a#clear:focus {
+	color: #fff;
+	background-image: -webkit-linear-gradient(#ffa239, #ffb460);
+    background-image: linear-gradient(#ffa239, #ffb460);
+}
+.container {
+	text-align: center;
+}
+.container h1 {
+	font-family: 'Oswald';
+	color: #eee;
+}
+#github_img {
+	width: 450px;
+	height: auto;
+	/*padding: 80px;*/
+    border: 40px solid #292929;
+    margin: 10px;
+}
+#github_link {
+	color: #60b044;
+	font-size: 14px;
+	text-shadow: none;
+	text-transform: capitalize;
+}
+#github_id {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.main_logo {
+	width: 50px;
+	height: auto;
+}
+#userinput {
+	height: 33px;
+}
+.frame {
+	margin: 10px;
+	padding: 30px;
+	background: #fff;
+}
